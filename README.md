@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Share Prompt
 
-## Getting Started
+This project is a web application built with Next.js 13. It features a modern app folder structure, client and server components, file-based routing, special files for pages, layouts, loading, and error handling, serverless route handlers, metadata and SEO optimization, and three different data fetching methods, including Server Side Rendering (SSR), Static Site Generation (SSG), and Incremental Static Generation (ISR).
 
-First, run the development server:
+## Client and Server Components
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This project uses Next.js 13's client and server components, which allow for better code organization and separation of concerns. The client components are responsible for rendering the user interface, while the server components handle server-side logic and API calls.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## File-based Routing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Next.js 13 supports file-based routing, which makes it easy to create dynamic and nested routes. This project uses file-based routing to create a simple and intuitive user interface.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Special Files
 
-## Learn More
+This Next.js 13 project also includes special files for pages, layouts, and loading. These files help to improve the user experience by providing consistent layout.
 
-To learn more about Next.js, take a look at the following resources:
+## Serverless Route Handlers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Next.js 13 supports serverless route handlers, which allow for easy creation of APIs and full-stack applications. This project uses serverless route handlers to create a simple API for fetching data.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Metadata and SEO Optimization
 
-## Deploy on Vercel
+This project also includes metadata and SEO optimization, which helps to improve the website's visibility on search engines. Next.js 13 provides several tools and features for optimizing metadata and SEO, including automatic generation of meta tags and support for structured data.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Data Fetching Methods
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project uses three different data fetching methods, including Server Side Rendering (SSR), Static Site Generation (SSG), and Incremental Static Generation (ISR). These data fetching methods help to improve the website's performance and user experience by minimizing loading times and improving content delivery.
+
+- Server Side Rendering (SSR): This method fetches data on the server and renders the HTML on the server before sending it to the client. This helps to improve the website's performance by minimizing the amount of work the client has to do.
+- Static Site Generation (SSG): This method generates static HTML files at build time, which can be served to the client without any server-side rendering or database queries. This helps to improve the website's performance by minimizing the amount of work the server has to do.
+- Incremental Static Generation (ISR): This method generates static HTML files at build time, but also allows for dynamic updates to the content as needed. This helps to improve the website's performance by minimizing the amount of work the server has to do, while still allowing for dynamic content updates.
